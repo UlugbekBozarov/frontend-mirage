@@ -1,0 +1,102 @@
+section#services {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container {
+        .card_container {
+            width: 100%;
+            height: 100%;
+        
+            .services_card {
+                width:  100%;
+                height: calc(100% - 50px);
+                background: #FFF1F9;
+                border-radius: 8px;
+                margin-bottom: 55px;
+                padding: 20px;
+                cursor: pointer;
+
+                .card_header {
+                    height: 110px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .bg_white {
+                        display: none;
+                    }
+                    i.fal {
+                        color: palevioletred;
+                    }
+                }
+                .card_body {
+                    h3 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 72px;
+                        text-align: center;
+                        color: #56597A;
+                        margin-bottom: 0;
+                    }
+                    p {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #919299;
+                        margin-bottom: 0;
+                    }
+                    .learn_button_block {
+                        display: none;
+                    }
+                }
+
+                &:hover {
+                    height: 100%;
+                    margin-bottom: 0;
+                    background: #F78CB6;
+
+                    .card_header {
+                        .bg_primary {
+                            display: none;
+                        }
+                        .bg_white {
+                            display: block;
+                        }
+                    }
+
+                    .card_body {
+                        .learn_button_block {
+                            display: block;
+                            display: flex;
+                            justify-content: center;
+
+                            button {
+                                background-color: transparent;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 30px;
+                                color: #FFFFFF;
+                                margin-top: 10px;
+
+                                svg {
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bg_img {
+        position: absolute;
+        top: -150px;
+        left: 0;
+        z-index: -1;
+    }
+}
