@@ -5,7 +5,7 @@ const BottomFooter = () => {
         <footer id="bottom_footer">
             <div className="container">
                 <div className="d-flex justify-content-between">
-                    <div>
+                    <div className="d-flex align-items-center">
                         <p className="m-0">© All Rights Reserved By Mirage 2021</p>
                     </div>
                     <div className="language">

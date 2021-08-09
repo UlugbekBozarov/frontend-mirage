@@ -8,8 +8,8 @@ footer#bottom_footer {
     p {
         font-style: normal;
         font-weight: 450;
-        font-size: 14px;
-        line-height: 30px;
+        font-size: 10px;
+        line-height: 100%;
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
@@ -53,5 +53,11 @@ footer#bottom_footer {
         z-index: -2;
         box-sizing: border-box;
         overflow: hidden;
+    }
+    @media (min-width: 576px) {
+        p {
+            font-size: 14px;
+            line-height: 30px;
+        }
     }
 }
