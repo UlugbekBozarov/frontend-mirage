@@ -1,0 +1,97 @@
+section#subscrible {
+    position: relative;
+    margin-bottom: 100px;
+    .container {
+        .input-group {
+            display: block !important;
+            background-color: white;
+            padding: 12px;
+            box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+
+            .form_block {
+                display: flex;
+
+                .input-group-prepend {
+                    margin-bottom: 20px;
+                    .input-group-text {
+                        border: 0;
+                        background-color: transparent;
+                        padding-left: 0;
+                        padding-right: 0;
+                        border-radius: 0;
+                        border-bottom: 1px solid #D2D2D2 !important;
+                        svg {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+
+                input.form-control {margin-bottom: 20px;
+                    height: 54px !important;
+                    border-radius: 0;
+                    border-bottom: 1px solid #D2D2D2 !important;
+                    &:focus {
+                        color: black !important;
+                        background-color: transparent;
+                        -webkit-box-shadow: inset 0 0 0, 0 0 0;
+                        box-shadow: inset 0 0 0, 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+    .img_left {
+        position: absolute;
+        top: 20px;
+        left: -160px;
+        z-index: -1;
+    }
+    .bg_right {
+        position: absolute;
+        bottom: -60px;
+        right: 0;
+        z-index: -1;
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            .input-group {
+                display: flex !important;
+
+                .form_block {
+                    width: calc(100% - 190px);
+                    .input-group-prepend {
+                        margin-bottom: 0 !important;
+                        padding-right: 3px;
+
+                        .input-group-text {
+                            border: 0 !important;
+                        }
+                    }
+
+                    input.form-control {
+                        width: 100% !important;
+                        border: 0 !important;
+                        margin-bottom: 0;
+                        height: 54px !important;
+                    }
+                }
+            }
+        }
+        .img_left {
+            position: absolute;
+            top: 20px;
+            left: -100px;
+            z-index: -1;
+        }
+    }
+    @media (min-width: 992px) {
+        .img_left {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            z-index: -1;
+        }
+    }
+}

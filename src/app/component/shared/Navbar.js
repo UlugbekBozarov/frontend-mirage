@@ -8,7 +8,7 @@ const Navbar = () => {
     const [nav] = useState([
         {
             id: 1,
-            path: "/home",
+            path: "/",
             name: "Home"
         },
         {

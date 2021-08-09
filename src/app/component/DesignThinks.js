@@ -10,7 +10,7 @@ const DesignThinks = () => {
                             <img src="/images/design_thinks.png" alt="design_thinks" />
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 d-flex aligin-items-center order-1 order-md-1">
+                    <div className="col-12 col-md-6 d-flex aligin-items-center order-1 order-md-1" style={{marginBottom: "50px"}}>
                         <div className="title_body">
                             <h4 style={{marginBottom: "0"}}>Design Things </h4>
                             <h1>We Loves To Design Your Creative Ideas</h1>

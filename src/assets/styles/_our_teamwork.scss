@@ -1,0 +1,16 @@
+section#our_teamwork {
+    position: relative;
+    margin-bottom: 100px;
+    .bg_left {
+        position: absolute;
+        bottom: -270px;
+        left: 0;
+        z-index: -1;
+    }
+    .bg_right {
+        position: absolute;
+        top: -180px;
+        right: 0;
+        z-index: -1;
+    }
+}

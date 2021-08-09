@@ -1,0 +1,132 @@
+footer#footer {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    .container {
+        .one {
+            .brand {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #919299;
+                margin-bottom: 30px;
+            }
+            .messenger {
+                p {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #919299;
+                }
+                div {
+                    display: flex;
+                    justify-content: center;
+                    span {
+                        width: 41px;
+                        height: 41px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: #FFFFFF;
+                        box-shadow: 2px 3px 10px 0.2px rgba($color: #000000, $alpha: 0.1);
+                        border-radius: 50%;
+                        margin-right: 15px;
+                        cursor: pointer;
+                        .c_primary {
+                            display: none;
+                        }
+
+                        &:hover {
+                            box-shadow: 2px 3px 10px 0.2px rgba($color: #000000, $alpha: 0.2);
+                            .c_gray {
+                                display: none;
+                            }
+                            .c_primary {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        h3 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #56597A;
+            margin-bottom: 20px;
+        }
+        h5 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #919299;
+            cursor: pointer;
+            margin-bottom: 15px;
+            &:hover {
+                color: #56597A;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            .one {
+                .brand {
+                    justify-content: start;
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 32px;
+                    text-align: start;
+                }
+                .messenger {
+                    p {
+                        text-align: start;
+                    }
+                    div {
+                        justify-content: start;
+                    }
+                }
+            }
+            h3 {
+                font-size: 22px;
+                line-height: 32px;
+                text-align: start;
+            }
+            h5 {
+                font-size: 18px;
+                line-height: 32px;
+                text-align: start;
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        .container {
+            h3 {
+                font-size: 24px;
+                line-height: 32px;
+            }
+            h5 {
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+    }
+}

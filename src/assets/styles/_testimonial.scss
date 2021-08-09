@@ -1,0 +1,28 @@
+section#testimonial {
+    margin-bottom: 100px;
+    .title_body {
+        h4.name {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 32px;
+            color: #56597A;
+        }
+
+        p.country {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            color: #ABABAB;
+
+            svg {
+                cursor: pointer;
+                margin-left: 10px;
+            }
+        }
+    }
+}

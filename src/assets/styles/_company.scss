@@ -1,0 +1,27 @@
+section#company {
+    margin-bottom: 100px;
+    .container {
+        .company_container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .company_block {
+                cursor: pointer;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+                &:hover {
+                    filter: contrast(130%);
+                }
+            }
+        }
+    }
+    @media (min-width: 1000px) {
+        .container {
+            .company_container {
+                justify-content: space-between;
+            }
+        }
+    }
+}
