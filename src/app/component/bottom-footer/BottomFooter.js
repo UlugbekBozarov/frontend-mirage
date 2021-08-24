@@ -1,4 +1,5 @@
 import React from 'react'
+import './bottomFooter.scss'
 
 const BottomFooter = () => {
     return (
@@ -7,6 +8,7 @@ const BottomFooter = () => {
                 <div className="d-flex justify-content-between">
                     <div className="d-flex align-items-center">
                         <p className="m-0">© All Rights Reserved By Mirage 2021</p>
+                        <a href="https://ulugbekbozarov-portfolio.netlify.app/" className="text-white ml-2" title="Portfolio">Ulug'bek Bozarov</a>
                     </div>
                     <div className="language">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

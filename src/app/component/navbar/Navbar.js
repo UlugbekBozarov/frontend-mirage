@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import './navbar.scss'
 
 const Navbar = () => {
 

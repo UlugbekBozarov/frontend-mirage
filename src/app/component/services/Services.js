@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './services.scss'
 
 const Services = () => {
 
@@ -85,8 +86,8 @@ const Services = () => {
         <section id="services">
             <div className="container">
                 <div className="title_body text-center" style={{ marginBottom: "50px" }}>
-                    <h4 style={{ marginBottom: "0" }}>Our Services</h4>
-                    <h1>Why People Choose Us</h1>
+                    <h4 style={{ marginBottom: "0", textAlign: "center" }}>Our Services</h4>
+                    <h1 style={{textAlign: "center"}}>Why People Choose Us</h1>
                 </div>
                 <div className="row justify-content-center m-0">
                     {

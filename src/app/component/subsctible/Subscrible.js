@@ -1,4 +1,5 @@
 import React from 'react'
+import './subscrible.scss'
 
 const Subscrible = () => {
     return (

@@ -1,4 +1,5 @@
 import React from 'react'
+import './ourTeamwork.scss'
 
 const OurTeamwork = () => {
     return (

@@ -96,13 +96,13 @@ footer#footer {
                     line-height: 32px;
                     text-align: start;
                 }
-                .messenger {
-                    p {
-                        text-align: start;
-                    }
-                    div {
-                        justify-content: start;
-                    }
+            }
+            .messenger {
+                p {
+                    text-align: start !important;
+                }
+                div {
+                    justify-content: start !important;
                 }
             }
             h3 {
